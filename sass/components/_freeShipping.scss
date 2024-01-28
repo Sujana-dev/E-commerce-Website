@@ -1,0 +1,103 @@
+#free_shipping{
+    .ship{
+        margin: 27px 0 63px 0;
+        border: 1px solid #eee;
+        border-radius: 8px;
+        padding: 16px 0 16px 35px;
+        .shipping{
+            display: flex;
+            align-items: center;
+            span{
+                font-size: 32px;
+                color: #336699;
+                margin-right: 15px;
+            }
+            .ship_details{
+                
+                h3{
+                    font-size: 14px;
+                    line-height: 17px;
+                    font-weight: 600;
+                    font-family: 'Poppins', sans-serif;
+                    color: #333;
+                    margin-bottom: 4px;
+                }
+                h4{
+                    font-size: 13px;
+                    line-height: 13px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                    color: #666;
+                }
+            }
+        }
+        .ship_pay{
+            margin-left: 16px;
+        }
+        .ship_money{
+            margin-left: 26px;
+        }
+        .ship_supp{
+            margin-left: 30px;
+        }
+    }
+    .ship_images{
+        margin-bottom: 60px;
+        .ship_img{
+            position: relative;
+            img{
+                border-radius: 3px;
+            }
+            .img_details{
+                position: absolute;
+                top: 33px;
+                left: 40px;
+                h3{
+                    font-size: 18px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                    color: #333;
+                    span{
+                        font-weight: 700;
+                        color: #f77c29;
+                    }
+                }
+                h2{
+                    font-size: 26px;
+                    line-height: 30px;
+                    font-weight: 800;
+                    font-family: 'Poppins', sans-serif;
+                    color: #333;
+                    margin: 5px 0 17px;
+                    span{
+                        font-weight: 400;
+                    }
+                }
+                h4{
+                    font-size: 14px;
+                    line-height: 22px;
+                    font-weight: 400;
+                    font-family: 'Poppins', sans-serif;
+                    color: #666;
+                   span{
+                    font-weight: 700;
+                    color: #f77c29;
+                   }
+                }
+            }
+            .ship_two{
+                h3{
+                    color: #c4c4c5;
+                }
+                h2{
+                    color: #fff;
+                }
+                h4{
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+}

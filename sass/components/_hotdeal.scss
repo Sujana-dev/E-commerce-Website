@@ -1,0 +1,279 @@
+#hotdeal{
+    padding-bottom: 60px;
+    .dealMega_main{
+        padding: 20px;
+        border: 1px solid #eee;
+        transition: all linear .3s;
+        border-radius: 6px;
+        h2{
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            padding-bottom: 17px;
+            border-bottom: 1px solid #eee;
+        }
+        .deal_slider{
+            margin-top: 20px;
+            position: relative;
+            .dealMega_item{
+                display: flex !important;
+                gap: 20px;
+                .singleProduct_slide{
+                    width: 50%;
+                    display: flex;
+                    align-items: start;
+                    gap: 10px;
+                    .carousel-indicators{
+                        position: static;
+                        display: flex;
+                        flex-direction: column;
+                        padding: 0;
+                        margin-left: 0;
+                        margin-bottom: 0;
+                        margin-right: 0;
+                        gap: 20px;
+                    }
+                    .carousel-indicators [data-bs-target]{
+                        box-sizing: content-box;
+                        width: 60px;
+                        height: 60px;
+                        text-indent: 0;
+                        cursor: pointer;
+                        background-color: #fff;
+                        background-clip: padding-box;
+                        border: 0;
+                        transition: opacity .6s ease
+                    }
+                }
+                .dealMega_slideText{
+                    width: 50%;
+                    .dealMega_details{
+                        h2{
+                            font-size: 20px;
+                            line-height: 32px;
+                            font-weight: 600;
+                            font-family: 'Poppins', sans-serif;
+                            color: #333;
+                        }
+                        h3{
+                            font-size: 24px;
+                            line-height: 26px;
+                            font-weight: 700;
+                            font-family: 'Poppins', sans-serif;
+                            color: #333;
+                            margin-top: 20px;
+                        }
+                        h4{
+                            margin-top: 5px;
+                            font-size: 15px;
+                            line-height: 24px;
+                            font-weight: 400;
+                            font-family: 'Poppins', sans-serif;
+                            color: #666;
+                            span{
+                                margin-left: 8px;
+                                font-weight: 700;
+                                color: #336699;
+                            }
+                        }
+                        .deal_star{
+                            display: flex;
+                            margin: 10px 0;
+                            li a{
+                                color: #f77c29;
+                                span{
+                                    font-size: 12px;
+                                    line-height: 12px;
+                                    font-weight: 400;
+                                    font-family: 'Poppins', sans-serif;
+                                    color: #666;
+                                    margin-left: 8px;
+                                }
+                            }
+                        }
+                        .size{
+                            padding-bottom: 20px;
+                            border-bottom: 1px solid #eee;
+                        }
+                        .deal_CartInput{
+                            display: flex;
+                            margin-top: 20px;
+                            .deal_input{
+                                padding: 10px 16px;
+                                border: 1px solid #eee;
+                                border-radius: 3px;
+                                width: 35%;
+                                position: relative;
+                                span{
+                                }
+                                a{
+                                    position: absolute;
+                                    right: 48px;
+                                    top: 10px;
+                                    background-color: #eee;
+                                    color: #666;
+                                    border-radius: 50%;
+                                    line-height: 24px;
+                                    height: 24px;
+                                    width: 24px;
+                                    font-size: 13px;
+                                    text-align: center;
+                                }
+                                .icon_plus{
+                                    right: 15px;
+                                }
+                            }
+                            .deal_cart{
+                                width: 75%;
+                                padding: 14px 44px;
+                                background-color: #eee;
+                                font-size: 18px;
+                                line-height: 14px;
+                                font-weight: 600;
+                                font-family: 'Poppins', sans-serif;
+                                text-align: center;
+                                margin-left: 10px;
+                                border-radius: 3px;
+                                a{
+                                    color: #666;
+                                    span{
+                                        font-size: 14px;
+                                        margin-left: 5px;
+                                    }
+                                }
+                            }
+                        }
+                        .socialIcon_link{
+                            display: flex;
+                            margin-top: 16px;
+                            .deal_iconLeft{
+                                display: flex;
+                                gap: 10px;
+                                border-right: 1px solid #e1e1e1;
+                                margin-right: 20px;
+                                padding-right: 20px;
+                                li{
+                                    .social_icon{
+                                        width: 32px;
+                                        height: 32px;
+                                        border: 2px solid #ccc;
+                                        border-radius: 50%;
+                                        line-height: 32px;
+                                        text-align: center;
+                                        font-size: 14px;
+                                        color: #666;
+                                        transition: all linear .3s;
+                                    }
+                                    &:hover .face{
+                                        color: #fff;
+                                        border-color: #1b4f9b;
+                                        background-color: #1b4f9b;
+                                    }
+                                    &:hover .twitt{
+                                        color: #fff;
+                                        border-color: #00adef;
+                                        background-color: #00adef;
+                                    }
+                                    &:hover .pinter{
+                                        color: #fff;
+                                        border-color: #f96a02;
+                                        background-color: #f96a02;
+                                    }
+                                    &:hover .whatsapp{
+                                        color: #fff;
+                                        border-color: #3c8a38;
+                                        background-color: #3c8a38;
+                                    }
+                                    &:hover .link{
+                                        color: #fff;
+                                        border-color: #2c567e;
+                                        background-color: #2c567e;
+                                    }
+                                }
+                            }
+                            .deal_iconRight{
+                                display: flex;
+                                gap: 14px;
+                                align-items: center;
+                                li a{
+                                    font-size: 18px;
+                                    color: #333;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .prevarr,
+            .nextarr{
+                color: #666;
+                font-size: 13px;
+                position: absolute;
+                top: -14%;
+                right: 0;
+                cursor: pointer;
+                
+            }
+            .prevarr{
+                right: 14px;
+            }
+        }
+        &:hover{
+            border-color: #336699;
+        }
+    }
+
+    // ==================== Best seller part start  ===================
+    .best_sellerMain{
+        padding: 20px;
+        border: 1px solid #eee;
+        transition: all linear .3s;
+        border-radius: 6px;
+        h2{
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 700;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+            padding-bottom: 17px;
+            border-bottom: 1px solid #eee;
+        }
+        .bestSeller_slider{
+            margin-top: 20px;
+            .dealMega_item{
+                .bestSeller_item{
+                    display: flex;
+                    gap: 20px;
+                    padding-bottom: 20px;
+                    .bestSeller_img{
+                        width: 100px;
+                    }
+                    .bestSeller_details{
+                        ul{
+                            display: flex;
+                        }
+                    }
+                }
+            }
+            .prevarr,
+            .nextarr{
+                color: #666;
+                font-size: 13px;
+                position: absolute;
+                top: -14%;
+                right: 0;
+                cursor: pointer;
+                
+            }
+            .prevarr{
+                right: 14px;
+            }
+
+        }
+        &:hover{
+            border-color: #336699;
+        }
+    }
+}
